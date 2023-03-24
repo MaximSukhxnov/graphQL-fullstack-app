@@ -8,3 +8,5 @@ const BookSchema = new mongoose.Schema({
 const Book = mongoose.model("Book", BookSchema);
 
 export default Book;
+
+// export const Book = mongoose.model('Book', {title: String, year: Number});
